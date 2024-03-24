@@ -61,8 +61,6 @@ header img {
     align-self: center;
 }
 
-/* Nuevo */
-
 .header--title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
@@ -76,4 +74,13 @@ header img {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
+}
+
+/* Nuevo */
+
+.header--title-container .header--button {
+    position: absolute;
+    top: 270px;
+    display: block;
+    margin-top: 35px;
 }
