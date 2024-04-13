@@ -153,3 +153,12 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+
+.main-currency-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
