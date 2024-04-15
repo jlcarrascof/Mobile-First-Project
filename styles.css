@@ -164,6 +164,7 @@ main {
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    display: inline-block;
 }
 
 .main-currency-table .currency-table--title {
