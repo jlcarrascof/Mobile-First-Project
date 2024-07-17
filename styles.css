@@ -278,3 +278,12 @@ main {
     background-color: var(--soft-blue);
     border-radius: 8px;
 }
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
