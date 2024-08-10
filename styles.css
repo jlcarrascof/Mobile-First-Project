@@ -427,3 +427,11 @@ main {
     line-height: 1.8rem;
     color: black;
 }
+
+.plan-card--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: black;
+}
