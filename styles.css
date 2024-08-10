@@ -394,6 +394,13 @@ main {
     color: var(--just-white);
 }
 
+.main-plans-container {
+    width: 100%;
+    min-height: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
 .plans-container--card {
     position: relative;
     width: 70%;
