@@ -435,3 +435,8 @@ main {
     line-height: 6.3rem;
     color: black;
 }
+
+.plan-card--price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
