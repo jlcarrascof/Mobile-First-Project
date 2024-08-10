@@ -401,6 +401,14 @@ main {
     text-align: center;
 }
 
+.main-plans-container h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
 .plans-container--card {
     position: relative;
     width: 70%;
