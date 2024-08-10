@@ -419,3 +419,11 @@ main {
     border-radius: 8px;
     color: var(--just-white);
 }
+
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
