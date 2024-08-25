@@ -417,6 +417,15 @@ main {
     color: #757575;
 }
 
+.plans-container--slider {
+    display: flex;
+    /* gap: 50px; Aun no está soportado por todos los navegadores :( */
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
