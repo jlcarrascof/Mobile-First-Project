@@ -469,14 +469,8 @@ main {
     color: black;
 }
 
-.plan-card--price span {
-    font-size: 1.2rem;
-    font-weight: 300;
-}
-
-.plan-card--saving {
-    font-size: 1.2rem;
-    color: #757575;
+.plans-container--card .plan-card--saving {
+    padding-top: 0;
 }
 
 .plan-card--ca {
