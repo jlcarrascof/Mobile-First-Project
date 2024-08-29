@@ -518,3 +518,8 @@ footer .left ul {
 footer li {
     margin: 10px 0;
 }
+
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
