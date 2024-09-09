@@ -534,19 +534,19 @@ footer {
 
 footer section {
     display: flex;
-    width: 50%;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
-footer .left ul {
+.left ul {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     list-style: none;
 }
 
-footer li {
+.left li {
     margin: 10px 0;
 }
 
