@@ -157,14 +157,14 @@ main {
     color: #757575;
 }
 
-.main-currency-table, .main-commissions-table {
+.main-currency-table,
+.main-commissions-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
-    display: inline-block;
 }
 
 .main-currency-table .currency-table--title {
