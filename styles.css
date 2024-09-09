@@ -410,10 +410,10 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/imgs/bitcoinbaby2x.jpg');
+    background-image: url("./assets/imgs/bitcoinbaby2x.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -461,10 +461,10 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 190px;
+    min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 5px 0;
+    margin: 50px 30px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -521,7 +521,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("../assets/icons/orange-right-arrow.svg");
+    background-image: url("./assets/icons/orange-right-arrow.svg");
     vertical-align: text-bottom;
 }
 
