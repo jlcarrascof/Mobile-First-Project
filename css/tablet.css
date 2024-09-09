@@ -1,7 +1,7 @@
 .product-cards--container {
     display: flex;
     flex-wrap: wrap;
-    width: 860px;
+    width: 930px;
     margin: 0 auto;
 }
 
