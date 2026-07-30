@@ -15,4 +15,11 @@
 
 .plans-container--slider {
     justify-content: center;
+    overflow-x: hidden;
+    height: auto;
+    padding: 20px 0;
+}
+
+.plans-container--card {
+    margin: 20px 15px;
 }
