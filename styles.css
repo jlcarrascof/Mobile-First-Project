@@ -457,11 +457,16 @@ main {
 
 .plans-container--slider {
     display: flex;
-    /* gap: 50px; Aun no está soportado por todos los navegadores :( */
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+    display: none;
 }
 
 .plans-container--card {
