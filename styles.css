@@ -1,9 +1,9 @@
 /*
-    1.- Posicionamiento.
-    2.- Modelo de caja (Box model).
-    3.- Tipografía.
-    4.- Visuales.
-    5.- Otros.
+    1.- Positioning.
+    2.- Box model.
+    3.- Typography.
+    4.- Visuals.
+    5.- Others.
 */
 
 :root {
@@ -95,7 +95,7 @@ header img {
     width: 229px;
     height: 48px;
     background: var(--off-white);
-    /* Sombra  */
+    /* Shadow */
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
     border-radius: 4px;
@@ -197,7 +197,6 @@ main {
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
-    /* background-color: #fff; */
     border-radius: 15px;
 }
 
@@ -214,7 +213,6 @@ main {
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    /* border-bottom: 1px solid #faf8f7; */
     background-color: var(--just-white);
 }
 
