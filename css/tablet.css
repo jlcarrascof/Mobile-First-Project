@@ -1,16 +1,25 @@
 .main-tables-container {
     display: flex;
-    width: 930px;
+    width: 100%;
+    max-width: 930px;
     margin: 0 auto;
 }
 
 .product-cards--container {
     display: flex;
     flex-wrap: wrap;
-    width: 930px;
+    width: 100%;
+    max-width: 930px;
     margin: 0 auto;
 }
 
 .plans-container--slider {
     justify-content: center;
+    overflow-x: hidden;
+    height: auto;
+    padding: 20px 0;
+}
+
+.plans-container--card {
+    margin: 20px 15px;
 }

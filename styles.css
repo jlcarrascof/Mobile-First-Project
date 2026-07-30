@@ -1,9 +1,9 @@
 /*
-    1.- Posicionamiento.
-    2.- Modelo de caja (Box model).
-    3.- Tipografía.
-    4.- Visuales.
-    5.- Otros.
+    1.- Positioning.
+    2.- Box model.
+    3.- Typography.
+    4.- Visuals.
+    5.- Others.
 */
 
 :root {
@@ -37,7 +37,9 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    min-height: 334px;
+    height: auto;
+    padding-bottom: 40px;
     text-align: center;
     background: linear-gradient(
       208.83deg,
@@ -49,7 +51,7 @@ header {
 header img {
     width: 151px;
     height: 24px;
-    margin-top: 60px;
+    margin-top: 40px;
     align-self: center;
 }
 
@@ -57,10 +59,13 @@ header img {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    height: 218px;
-    margin-top: 50px;
+    height: auto;
+    margin-top: 30px;
     text-align: center;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header--title-container h1 {
@@ -79,16 +84,18 @@ header img {
 }
 
 .header--title-container .header--button {
-    position: absolute;
-    left: calc(50% - 118px);
-    top: 270px;
-    display: block;
-    margin-top: 35px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
     padding: 15px;
     width: 229px;
     height: 48px;
     background: var(--off-white);
-    /* Sombra  */
+    /* Shadow */
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
     border-radius: 4px;
@@ -190,7 +197,6 @@ main {
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
-    /* background-color: #fff; */
     border-radius: 15px;
 }
 
@@ -207,7 +213,6 @@ main {
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    /* border-bottom: 1px solid #faf8f7; */
     background-color: var(--just-white);
 }
 
@@ -262,30 +267,32 @@ main {
 }
 
 .currency-table--date {
-    width: 190px;
-    height: 31px;
+    width: max-content;
+    min-width: 190px;
+    height: auto;
     margin: 0 auto;
     margin-top: 15px;
-    padding: 8px;
+    padding: 6px 12px;
     background-color: var(--soft-orange);
     border-radius: 8px;
 }
 
 .commissions-table--date {
-    width: 190px;
-    height: 31px;
+    width: max-content;
+    min-width: 190px;
+    height: auto;
     margin: 0 auto;
     margin-top: 15px;
-    padding: 8px;
+    padding: 6px 12px;
     background-color: var(--soft-blue);
     border-radius: 8px;
 }
 
 .currency-table--date p,
 .commissions-table--date p {
-    margin: 7px;
+    margin: 0;
     font-size: 1.2rem;
-    line-height: 1.5px;
+    line-height: 1.5rem;
 }
 
 .main-product-detail {
@@ -450,11 +457,18 @@ main {
 
 .plans-container--slider {
     display: flex;
-    /* gap: 50px; Aun no está soportado por todos los navegadores :( */
-    height: 316px;
-    overflow-x: scroll;
+    height: 330px;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+    display: none;
 }
 
 .plans-container--card {
@@ -464,7 +478,7 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 30px 0;
+    margin: 30px 30px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
